@@ -1,0 +1,115 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+
+    #content .content-section {
+        margin: 0;
+    }
+
+    #content .ABOUT {
+        margin: 25px 0px 0px;
+    }
+
+    #content .member-item {
+        margin-top: 16px;
+        width: 25%;
+    }
+
+    .tickets-list {
+        margin: 32px 0;
+    }
+
+    .buy-tickets {
+        margin: 0 -8px;
+    }
+
+    .contact {
+        margin: 32px 0 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: gray;
+    }
+
+    #nav .subnav li a {
+        color: white;
+        padding: 5px 40px;
+    }
+
+    #nav li {
+        display: block;
+        position: relative;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #content .content-section {
+        margin: 0;
+    }
+
+    #content .ABOUT {
+        margin: 25px 0px 0px;
+    }
+
+    #content .member-item {
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        padding: 0;
+    }
+
+    .tickets-list {
+        margin: 32px 0;
+    }
+
+    .buy-tickets {
+        margin: 0;
+    }
+
+    .buytickets-item {
+        width: 100%;    
+        padding: 0;
+        margin-top: 16px;
+    }
+
+    .contact {
+        margin: 32px 0 0;
+    }
+    .contact-info1,
+    .contact-info2 {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .contact-info2 {
+        margin-top: 8px;
+    }
+}
